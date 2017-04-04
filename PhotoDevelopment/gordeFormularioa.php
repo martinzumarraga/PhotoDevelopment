@@ -1,0 +1,41 @@
+<?php
+	require('funtzioak.php');
+	$userName=$_POST['userName'];
+	$lastName=$_POST['lastName'];
+	$country=$_POST['country'];
+	$years=$_POST['birthday'];
+	$region='-1';
+	$email='-1';
+	$privacy='-1';
+	$securePassword='-1';
+	$socialNetwork='-1';
+	$secureConnection='-1';
+	if($years>'17'){
+		if(isset($_POST['email'])){
+			$email=$_POST['email'];
+			if(isset($_POST['Privacy'])){
+				$privacy=$_POST['Privacy'];
+			}
+			if(isset($_POST['SecurePassword'])){
+				$securePassword=$_POST['SecurePassword'];
+			}
+			if(isset($_POST['SocialNetwork'])){
+				$socialNetwork=$_POST['SocialNetwork'];
+			}
+			if(isset($_POST['SecureConnection'])){
+				$secureConnection=$_POST['SecureConnection'];
+			}
+		}
+	}
+
+	if($country=='70' || $country=='169'){
+		$region=$_POST['region'];
+	}
+	$result=gordeFormulario($country, $region, $userName,$lastName,$years,$email,$privacy,$securePassword,$socialNetwork,$secureConnection);
+	if($result=='ok'){
+		header('Location:index.php?result=ok');
+	}else{
+		header('Location:index.php?result=bad');
+	}
+	konexioaItxi();
+?>

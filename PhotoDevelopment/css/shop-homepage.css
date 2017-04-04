@@ -1,0 +1,166 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+html {
+
+}
+body {
+        font-family: 'Roboto', sans-serif;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: url(../img/fondo3.jpg) no-repeat center fixed; 
+    
+      background-color:cadetblue; /* For browsers that do not support gradients */
+   background-blend-mode: screen;
+    background-size: cover;
+    z-index: -1;
+}
+.navbar-inverse{
+      background:black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg,black,grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg,black,grey ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg,black,grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg,black,grey); /* Standard syntax */
+     
+}
+.slide-image {
+    width: 100%;
+}
+.container{
+
+    
+  box-shadow: 10px 10px 15px grey;
+    border-style:double;
+    border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    
+
+    z-index: 1;
+  
+}
+.carousel-holder {
+border:none; 
+    z-index: 2;
+     opacity: 1;
+}
+.logo{
+    vertical-align: middle;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+.carousel-control,
+.item {
+    border-radius: 4px;
+
+}
+
+.caption {
+    height: 200px;
+    overflow: hidden;
+    background-color:lightblue;
+
+
+     text-align: justify;
+    padding:10px;
+     }
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+     
+}
+
+.ratings {
+
+    color: #d17581;
+
+}
+.embed-responsive{
+    margin-top:  2%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+    border-style: none;
+}
+.kutxa{
+
+ background: url(../img/fondo3.jpg) no-repeat center fixed; 
+background-color:cadetblue brown;
+  background-blend-mode:screen;
+       background-size: cover;
+   
+
+
+   margin: 8%;
+  
+ border-color: lightblue;
+box-shadow: 0px 0px 3px lightblue;
+
+}
+    
+.bideo{
+margin-top: 10px;
+    border-style: solid;
+    border-color: dimgrey;
+}
+    .header{
+      /* For browsers that do not support gradients */
+         color:cadetblue;
+  
+       
+}
+
+.link{
+    color:dimgrey;
+    text-decoration: none;
+}
+
+
+.ratings{
+         background:black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg,black,grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg,black,grey ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg,black,grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg,black,grey); /* Standard syntax */
+    color: snow;
+        border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    padding-right: 2%;
+}
+.glyphicon{
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+.kutxak{ background: url(../img/fondo3.jpg) no-repeat center fixed; 
+background-color: dimgray;
+  background-blend-mode:screen;
+       background-size: cover;
+   
+}
+.jumbotron{
+
+      background:black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg,black,grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg,black,grey ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg,black,grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg,black,grey); /* Standard syntax */
+z-index:2s
+}

@@ -1,0 +1,34 @@
+
+/* indicamos que en principio las estrellas estén vacías */
+.estrellasValoracion {
+    background: url('../images/estrellaVacia.png') no-repeat;
+    float:      left;
+    height:     24px;
+    padding:    2px;
+    width:      24px;
+}
+
+/* las imágenes que se van a usar cuando se obtengan los votos */
+.estrellaValoracion {
+    background: url('../images/estrellaLlena.png') no-repeat;
+}
+
+/* y cuando se ponga el mouse por encima */
+.estrellaVotar {
+    background: url('../images/estrellaHover.png') no-repeat;
+}
+
+.votosTotales {
+    top: 58px;
+    left: 0;
+    padding: 5px;
+	 background:black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg,black,grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg,black,grey ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg,black,grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg,black,grey); /* Standard syntax */
+    color: snow;
+        border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    padding-right: 2%;
+} 
